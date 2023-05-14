@@ -5,6 +5,11 @@ class TestingBranch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: Container(height: 100,width: 160,
-      child:const Text("testing branch"),));
+      child:const Column(
+        children: [
+          Text("testing branch"),
+           Text("testing branch"),
+        ],
+      ),));
   }
 }
